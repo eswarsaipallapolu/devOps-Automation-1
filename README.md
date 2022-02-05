@@ -1,6 +1,6 @@
 # Angular project
 
-This project mainly invloves of css styling based on url classified at specific elements only.
+This project mainly involves of css styling based on url Classified at specific elements only.If we give productname and color the page with image,logo,elements all will be changed according to the input given.
 
 # Producturl
 
