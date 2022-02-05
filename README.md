@@ -1,3 +1,7 @@
+# Angular project
+
+This project mainly invloves of css styling based on url classified at specific elements only.
+
 # Producturl
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
