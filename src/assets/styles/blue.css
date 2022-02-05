@@ -1,0 +1,47 @@
+.header{
+    height:08%;
+    background:white;
+}
+
+.logo{
+    display: flex;
+    padding-left: 12%;
+    justify-content: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    font-size: 15px;
+    color:blue;
+}
+
+.colorbutton{
+    cursor: pointer;
+    color:blue;
+}
+
+.list:hover{
+    cursor: pointer;
+    color:blue;
+}
+
+.icon{
+    color: blue;
+}
+
+.imagelocation
+{
+    background-repeat: no-repeat;
+    padding-top: 50%;
+    background-position: center;
+    background-size: 25%;
+}
+
+#image{
+    background-image: url("/assets/images/blueiphone.jpg");
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}

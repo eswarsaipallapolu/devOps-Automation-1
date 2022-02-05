@@ -1,0 +1,63 @@
+<mat-toolbar class="header">
+        <a class="icon" mat-icon-button>
+            <mat-icon (click)="sidenav.toggle();" class="maticon">view_list</mat-icon>
+        </a>
+        <div class="logo">
+            <img src="/assets/logos/momentumlogo.png" width="30%" alt="image">
+        </div>
+        <div class="activebutton">
+        <a class="button" style="font-size: 15px;" matTooltip="Account Info">Account</a>
+        &nbsp;
+        |
+        &nbsp;
+        <a class="button" style="font-size: 15px;" matTooltip="Contact Us for Assistant">Contact</a>
+        &nbsp;
+        <a class="colorbutton" style="font-size: 15px;" matTooltip="Contact Us for Assistant">Login</a>
+        </div>
+</mat-toolbar>
+<mat-sidenav-container>
+    <mat-sidenav #sidenav style="width: 15%;">
+        <mat-nav-list>
+            <a class="list" mat-list-item>Home</a>
+            <a class="list" mat-list-item>My Assistant</a>
+            <a class="list" mat-list-item>Account</a>
+            <a class="list" mat-list-item>About Us</a>
+            <a class="list" mat-list-item>Help</a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div style="height: 90vh;">
+            <div class="imagelocation" id="image">
+                <!-- <img src="/assets/images/rediphone.jpg" width="40%" alt="image"> -->
+                <!-- <img src="/assets/images/blueiphone.jpg" width="40%" alt="image"> -->
+                <!-- <img src="/assets/images/greeniphone.jpg" width="40%" alt="image"> -->
+            </div>
+            <footer>
+                <span class="footer">
+                    <div>
+                        <p class="footerhead">Momentum is part of Momentum Metropolitan Life Limited, an authorised financial services and registered credit provider. ©2021 Momentum Metropolitan Life Limited.</p>
+                    </div>
+                    <div>
+
+                    </div>
+                </span>
+            </footer>
+        </div>
+    </mat-sidenav-content>   
+</mat-sidenav-container>
+
+    
+
+
+
+
+
+
+<!-- <script>
+                    var x='[product]';
+                    if(product="mobile")
+                    {
+                        console.log("This is mobile");
+                        document.write('<img src="/assets/images/rediphone.jpg" width="40%" alt="image">');
+                    }
+                </script>     -->

@@ -1,0 +1,53 @@
+/* header{
+    position: fixed;
+    top: 50px;
+} */
+
+.header{
+    height:08%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background:white;
+}
+
+.logo{
+    display: flex;
+    padding-left: 12%;
+    justify-content: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    font-size: 15px;
+    color:red
+}
+
+.colorbutton{
+    cursor: pointer;
+    color:red;
+}
+
+.list:hover{
+    cursor: pointer;
+    color:red;
+}
+
+.icon{
+    color: red;
+}
+
+.imagelocation
+{ 
+    background-repeat: no-repeat;
+    padding-top: 50%;
+    background-position: center;
+}
+
+#image{
+    background-image: url("/assets/images/rediphone.jpg");
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+        <button mat-icon-button>
+            <mat-icon (click)="sidenav.toggle();" class="maticon">view_list</mat-icon>
+        </button>
+        <h1>LOGO OF COMPANY</h1>
+        <button mat-button matTooltip="Account Info">Account</button>
+        <button mat-button matTooltip="Contact Us for Assistant">Contact Us</button>
+    </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container>
+    <mat-sidenav #sidenav>
+        <mat-nav-list>
+            <a mat-list-item>Home</a>
+            <a mat-list-item>My Assistant</a>
+            <a mat-list-item>Account</a>
+            <a mat-list-item>About Us</a>
+            <a mat-list-item>Help</a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div style="height: 90vh;"></div>
+    </mat-sidenav-content>   
+</mat-sidenav-container>
+    

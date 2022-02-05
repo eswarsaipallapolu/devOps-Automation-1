@@ -1,0 +1,46 @@
+.header{
+    height:08%;
+    background:white;
+}
+
+.logo{
+    display: flex;
+    padding-left: 12%;
+    justify-content: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    font-size: 15px;
+    color:green;
+}
+
+.colorbutton{
+    cursor: pointer;
+    color:green;
+}
+.list:hover{
+    cursor: pointer;
+    color:green;
+}
+
+.icon{
+    color: green;
+}
+
+.imagelocation
+{
+    background-repeat: no-repeat;
+    padding-top: 50%;
+    background-position: center;
+    background-size: 25%;
+}
+
+#image{
+    background-image: url("/assets/images/greeniphone.jpg");
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}

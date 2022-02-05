@@ -1,0 +1,46 @@
+.header{
+    height:08%;
+    background:white;
+}
+
+.logo{
+    display: flex;
+    padding-left: 12%;
+    justify-content: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    font-size: 15px;
+    color:violet;
+}
+
+.colorbutton{
+    cursor: pointer;
+    color:violet;
+}
+.list:hover{
+    cursor: pointer;
+    color:violet;
+}
+
+.icon{
+    color: violet;
+}
+
+.imagelocation
+{
+    background-repeat: no-repeat;
+    padding-top: 50%;
+    background-position: center;
+    background-size: 40%;
+}
+
+#image{
+    background-image: url("/assets/images/violetiphone.jpg");
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
