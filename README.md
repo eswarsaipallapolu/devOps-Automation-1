@@ -1,3 +1,7 @@
+# Angular project
+
+This project mainly involves of css styling based on url Classified at specific elements only.If we give productname and color the page with image,logo,elements all will be changed according to the input given.
+
 # Producturl
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
